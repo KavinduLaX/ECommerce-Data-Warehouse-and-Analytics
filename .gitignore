@@ -1,0 +1,44 @@
+﻿# Visual Studio local settings
+.vs/
+*.user
+*.suo
+
+# Generated build and deployment files
+**/bin/
+**/obj/
+*.ispac
+*.asdatabase
+*.configsettings
+*.deploymentoptions
+*.deploymenttargets
+
+# Database backups
+*.bak
+*.backup
+
+# Temporary and operating-system files
+*.tmp
+*.temp
+Thumbs.db
+.DS_Store
+
+# Local secrets and environment files
+.env
+.env.*
+!.env.example
+
+# SSIS project file containing local/sensitive metadata
+ECommerce/ECommerce_ETL.dtproj
+
+# Temporarily excluded pending configuration and report review
+CubeProject/ECommerce_Cube/ECommerce_Cube.dwproj
+CubeProject/ECommerce_Cube/ECommerce_DW.ds
+ExcelReport/ECommerce_OLAP.xlsx
+PowerBIReports/ECommerce_PowerBI.pbix
+
+# SSIS packages pending connection/path review
+ECommerce/*.dtsx
+
+# Solutions referencing temporarily excluded project files
+CubeProject/ECommerce_Cube/ECommerce_Cube.sln
+ECommerce/ECommerce_ETL.slnx
