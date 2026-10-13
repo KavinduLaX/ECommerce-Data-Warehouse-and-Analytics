@@ -1,5 +1,13 @@
 ﻿# E-Commerce Data Warehouse & Business Intelligence
 
+<p align="center">
+  <img
+    src="docs/images/E-Commerce.png"
+    alt="E-Commerce Data Warehouse & Business Intelligence"
+    width="100%"
+  />
+</p>
+
 An end-to-end Data Warehousing and Business Intelligence solution that transforms e-commerce operational data into a dimensional data warehouse, an OLAP cube, and analytical reports.
 
 ## Project Overview
